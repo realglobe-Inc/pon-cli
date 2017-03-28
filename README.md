@@ -71,11 +71,26 @@ $ npm install pon-cli -g
 Usage
 ---------
 
+Create **Ponfile.js** at your project root and define tasks there.
+
 ```javascript
 'use strict'
 
-const ponCli = require('pon-cli')
+const pon = require('pon')
 
+module.exports = pon({
+  'myapp:do-something': async function doSomething () {
+    /* ... */
+  }
+})
+
+```
+
+Then, call task from command line
+
+
+```bash
+pon 'foo'
 ```
 
 
