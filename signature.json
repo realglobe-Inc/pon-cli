@@ -1,0 +1,12 @@
+{
+  "name": "pon",
+  "main": true,
+  "args": [
+    {
+      "name": "name",
+      "desc": "Task name (or name pattern) to run"
+    }
+  ],
+  "options": [
+  ]
+}
