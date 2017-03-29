@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "node ./ci/test.js",
-    "prepare": "node ./ci/build.js"
+    "prepare": "node ./ci/build.js && ./ci/assets.js"
   },
   "repository": "realglobe-Inc/pon-cli",
   "keywords": [
@@ -28,8 +28,8 @@
     "argx": "^3.0.2",
     "co": "^4.6.0",
     "commander": "^2.9.0",
-    "pon": "^2.0.1",
-    "ponfile": "^1.0.1"
+    "pon": "^2.1.5",
+    "ponfile": "^1.0.2"
   },
   "devDependencies": {
     "ababel": "^2.0.1",
@@ -41,7 +41,9 @@
     "ape-tmpl": "^5.0.20",
     "ape-updating": "^4.1.0",
     "coz": "^6.0.20",
+    "filecopy": "^3.0.1",
     "injectmock": "^2.0.0",
+    "pon-assets": "^1.0.3",
     "sg-templates": "^1.4.4",
     "sugos-travis": "^2.0.7"
   },
