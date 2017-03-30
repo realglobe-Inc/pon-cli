@@ -29,7 +29,7 @@
     "co": "^4.6.0",
     "commander": "^2.9.0",
     "pon": "^2.1.5",
-    "ponfile": "^1.0.2"
+    "ponfile": "^1.0.3"
   },
   "devDependencies": {
     "ababel": "^2.0.1",
@@ -43,7 +43,7 @@
     "coz": "^6.0.20",
     "filecopy": "^3.0.1",
     "injectmock": "^2.0.0",
-    "pon-assets": "^1.0.3",
+    "pon-assets": "^1.1.1",
     "sg-templates": "^1.4.4",
     "sugos-travis": "^2.0.7"
   },
