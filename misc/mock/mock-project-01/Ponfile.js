@@ -1,11 +1,11 @@
 'use strict'
 
-const pon = require('pon')
+const ponRunner = require('pon-runner')
 const fs = require('fs')
 
-module.exports = pon({
+module.exports = ponRunner({
   writeFoo () {
     fs.writeFileSync(`${__dirname}/foo.txt`, 'This is foo')
   }
-})
+}).bind()
 
