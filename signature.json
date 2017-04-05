@@ -8,5 +8,10 @@
     }
   ],
   "options": [
+    {
+      "name": "list",
+      "short": "l",
+      "desc": "List available tasks"
+    }
   ]
 }

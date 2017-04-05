@@ -1,6 +1,6 @@
 {
   "name": "pon-cli",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "description": "CLI for pon",
   "main": "lib",
   "bin": {
@@ -12,7 +12,7 @@
   },
   "repository": "realglobe-Inc/pon-cli",
   "keywords": [
-    "pon"
+    "Pon"
   ],
   "author": {
     "name": "Taka Okunishi",
@@ -28,8 +28,7 @@
     "argx": "^3.0.2",
     "co": "^4.6.0",
     "commander": "^2.9.0",
-    "pon": "^2.1.7",
-    "ponfile": "^1.0.3"
+    "ponfile": "^2.0.1"
   },
   "devDependencies": {
     "ababel": "^2.0.1",
@@ -43,7 +42,8 @@
     "coz": "^6.0.20",
     "filecopy": "^3.0.1",
     "injectmock": "^2.0.0",
-    "pon-assets": "^1.1.1",
+    "pon-assets": "^1.1.2",
+    "pon-runner": "^1.0.2",
     "sg-templates": "^1.4.4",
     "sugos-travis": "^2.0.7"
   },
