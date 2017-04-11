@@ -29,6 +29,14 @@ describe('cli', function () {
     yield cli({
       cwd: `${__dirname}/../misc/mock/mock-project-01`
     })
+
+    yield cli('hogehoge', {
+      cwd: `${__dirname}/../misc/mock/mock-project-01`
+    })
+
+    yield cli('writeFoo', {
+      cwd: `${__dirname}/../misc/mock/mock-project-01`
+    })
   }))
 
   it('List tasks with list option', () => co(function * () {
