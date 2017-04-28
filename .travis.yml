@@ -2,13 +2,9 @@ language: node_js
 node_js:
 - '6'
 before_install:
-# TODO OSS
-# - npm i npm-cli-login -g
-# - npm-cli-login -u "${NPM_USER}" -p "${NPM_PASSWORD}" -e "${NPM_EMAIL}"
-# - npm who
-- echo "registry = https://realglobe.artifactoryonline.com/realglobe/api/npm/npm-virtual" > $HOME/.npmrc
-- curl -u${NPM_USER}:${NPM_PASSWORD} "https://realglobe.artifactoryonline.com/realglobe/api/npm/auth" >> $HOME/.npmrc
-- cat $HOME/.npmrc
+ - npm i npm-cli-login -g
+ - npm-cli-login -u "${NPM_USER}" -p "${NPM_PASSWORD}" -e "${NPM_EMAIL}"
+ - npm who
 install:
 - npm install jsdoc -g
 - npm install
@@ -21,4 +17,4 @@ script:
 after_success:
 - ./ci/travis/publish.js
 env:
-  secure: "SPJL/5xLWcOEoF8ktKH7rhohwTuRAzvbCa/P13e290EYcCLUrVa21ZJpiUQrpRdMmau7Dfa7dY4QhpvMWMnzgiA5GoSwnTBs7Rkk0dq4YePtDAmMn0HEQL5ERXENkwMCkw9zYPdqmICL/rNxO00f8liZAvCyMVEfNRiqD9lFA0deChpRScNEAfpes8bQh78dwm7FZZ2OQTpvnEUNIVweEk+rQx5i8Nl/TIVGCySJIHf9asJG7h2vnsU8aobj3G4/SB1uVPGX55sNbHr+k12Xe2asi5gv0EGIkmjGGhq/RjH5CMQnEKHFUrEgOxWTuQOogdKXiiI3obUA0sIzjS+xL5QxEnqt8xJ/Mb0t3NkjWqIaQyh087sD7snj2unRuxJzAKa3hNAQt67q+fZ3w3anWzauY2GEaQPBuXuPlfWqpGLDnWwqi3UqwqFREybRUISTnQhf8YIL/GwAHmvcSnEXb4eKnbJ8+a3qeLU8mz5jBSnUuiG0bKtG2KX8deuyENAGOJgI4dIkT0fkw1LqYolShsf3aRB9pHecPDxc/5moatal/HvH1AFne3XGgTgR60NxJbLra5Xcecf6f2RWOwLTerxxsQqacrmk/8iUpGTh3VkTw6nHiC5HOUJhEauM3/iWQP1yCsGL9VV6fUcAgThhbbVX5tmXBXXAt0UG4y+gDtA="
+  secure: "MZ4fURT7mK/vl4Zstg6N5hFvQYNr77qpMtTNto0sxKcqcQ2rkd1zmmQCS9qIAgiZpa0JSyiTs0W0B+VIDsbkd3as3ruSCtzPMngquFrgbiviK8It1yxA7cyMshM2qPkzm+bLqz3NTKUIyDgofrxyT2RVszuD1DBEsY5cWwFeQdIi7f59939EbpwQZbavNMWTu041z5rJ8FPTxoeUT+r4RluFTmFoWofg2JY+g/Cg1IlrvPbeGCsYBdwZck0ckshpBQvx1U1OjNzjfHKd6qfQh+SPIF9MYvCAtKOjC2YNVE2dFVjdChlKN1pjYqPwMWSSiUa0KhVPdlDjwBFNYxWk2d9CPGddUzQqMJt1zhKQ7m3JLE/C3T0RL1t4DAqp9YTUejM1KJjzxKl2voxFE7xHK9IOEfy5Mef8ZMGU0I5E4AtUnnrq2KHoaCV0mDdXA2QvoXoK+P+j1jd2zyJFcIWGGm5rkTFZ4yLHGppA5IOIuthsh7N/koX4Buz28R/9V9bWTAh/dRzkYOT9xoWy5F4DDEJtw1Vq4uR+qGIcM1qNS9EsC1dWZgBe+kgzW3ApoPv0jWug0l9xmheKY6hkMoSxpxXILHiRlEZIk3tpyjp8DhSqptvA/DjHMrROYE9s15dqdosblr3bBYN6IALVOY8Np7A7iaoiVE6Rb8w7rIwZC9E="
