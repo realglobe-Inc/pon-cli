@@ -3,7 +3,7 @@
 const pon = require('pon')
 
 module.exports = pon({
-  'myapp:do-something': async function doSomething () {
+  'myapp:do': async function doSomething () {
     /* ... */
   }
 })
