@@ -82,7 +82,7 @@ Create **Ponfile.js** at your project root and define tasks there.
 const pon = require('pon')
 
 module.exports = pon({
-  'myapp:do-something': async function doSomething () {
+  'myapp:do': async function doSomething () {
     /* ... */
   }
 })
@@ -93,7 +93,7 @@ Then, call task from command line
 
 
 ```bash
-pon 'foo'
+pon myapp:do
 ```
 
 
