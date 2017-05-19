@@ -4,6 +4,7 @@
   "args": [
     {
       "name": "name",
+      "multiple": true,
       "desc": "Task name (or name pattern) to run"
     }
   ],
