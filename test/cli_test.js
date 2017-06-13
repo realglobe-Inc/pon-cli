@@ -49,6 +49,16 @@ describe('cli', function () {
       list: true
     })
   }))
+
+  // https://github.com/realglobe-Inc/pon/issues/13
+  it('Warning with not existing task', () => co(function * () {
+    yield cli('invalid01', {
+      cwd: `${__dirname}/../misc/mock/mock-project-01`
+    })
+    yield cli('invalid02', {
+      cwd: `${__dirname}/../misc/mock/mock-project-01`
+    })
+  }))
 })
 
 /* global describe, before, after, it */
