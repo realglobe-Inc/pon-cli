@@ -1,6 +1,6 @@
 {
   "name": "pon-cli",
-  "version": "3.1.2",
+  "version": "4.0.0",
   "description": "CLI for pon",
   "main": "lib",
   "bin": {
@@ -28,7 +28,7 @@
     "argx": "^3.0.2",
     "co": "^4.6.0",
     "commander": "^2.9.0",
-    "ponfile": "^3.0.2"
+    "ponfile": "^4.0.1"
   },
   "devDependencies": {
     "ababel": "^2.0.1",
@@ -37,18 +37,18 @@
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.4",
     "ape-tasking": "^4.0.9",
-    "ape-tmpl": "^5.0.20",
+    "ape-tmpl": "^6.0.0",
     "ape-updating": "^4.1.1",
     "coz": "^6.0.20",
     "filecopy": "^3.0.1",
     "injectmock": "^2.0.0",
     "pon-assets": "^1.1.5",
-    "pon-runner": "^2.0.2",
+    "pon-runner": "^3.0.3",
     "sg-templates": "^1.4.4",
     "sugos-travis": "^2.0.7"
   },
   "engines": {
-    "node": ">=6",
+    "node": ">=7.6",
     "npm": ">=4"
   }
 }

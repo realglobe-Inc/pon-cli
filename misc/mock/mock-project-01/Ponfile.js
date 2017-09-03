@@ -13,8 +13,8 @@ module.exports = ponRunner({
   b () {
     console.log('This is B')
   },
-
-  invalid01: [ '__invalid_pointer_01__', () => {} ],
-  invalid02: [ '__invalid_pointer_02__' ]
+  c: ['a', 'b', () => {}],
+  invalid01: ['__invalid_pointer_01__', () => {}],
+  invalid02: ['__invalid_pointer_02__']
 }).bind()
 
