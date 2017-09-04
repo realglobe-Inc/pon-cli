@@ -15,6 +15,13 @@
       "type": "string",
       "optional": true,
       "desc": "List available tasks"
+    },
+    {
+      "name": "prefixless",
+      "short": "P",
+      "type": "string",
+      "optional": true,
+      "desc": "Disable log prefix"
     }
   ]
 }

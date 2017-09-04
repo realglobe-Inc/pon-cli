@@ -7,7 +7,6 @@
 const cli = require('../lib/cli.js')
 const assert = require('assert')
 
-
 describe('cli', function () {
   this.timeout(3000)
 
@@ -47,6 +46,13 @@ describe('cli', function () {
     await cli({
       cwd: `${__dirname}/../misc/mock/mock-project-01`,
       list: true
+    })
+  })
+
+  it('List tasks with prefix-less', async () => {
+    await cli({
+      cwd: `${__dirname}/../misc/mock/mock-project-01`,
+      prefixless: true
     })
   })
 
