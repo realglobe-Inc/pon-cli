@@ -1,6 +1,6 @@
 {
   "name": "pon-cli",
-  "version": "4.0.4",
+  "version": "4.0.5",
   "description": "CLI for pon",
   "main": "lib",
   "bin": {
