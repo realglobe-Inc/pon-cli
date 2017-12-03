@@ -7,7 +7,6 @@
 const runnable = require('../lib/runnable.js')
 const assert = require('assert')
 
-
 describe('runnable', function () {
   this.timeout(3000)
 
@@ -20,7 +19,15 @@ describe('runnable', function () {
   })
 
   it('Runnable', async () => {
-
+    try {
+      runnable({
+        init: () => console.log('init!')
+      }, {
+        reservedTaskNames: 'init'
+      })
+    } catch (e) {
+      console.error(e)
+    }
   })
 })
 

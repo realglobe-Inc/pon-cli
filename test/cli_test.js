@@ -65,6 +65,13 @@ describe('cli', function () {
       cwd: `${__dirname}/../misc/mock/mock-project-01`
     })
   })
+
+  it('Run init task', async () => {
+    await cli('init', {
+      cwd: `${__dirname}/../tmp/testing-init`
+    })
+  })
+
 })
 
 /* global describe, before, after, it */
