@@ -5,7 +5,7 @@
 'use strict'
 
 const runnable = require('../lib/runnable.js')
-const assert = require('assert')
+const {ok} = require('assert')
 
 describe('runnable', function () {
   this.timeout(3000)
@@ -19,15 +19,17 @@ describe('runnable', function () {
   })
 
   it('Runnable', async () => {
+    let caught
     try {
       runnable({
         init: () => console.log('init!')
       }, {
-        reservedTaskNames: 'init'
+        reservedTaskNames: ['init']
       })
     } catch (e) {
-      console.error(e)
+      caught = e
     }
+    ok(caught)
   })
 })
 

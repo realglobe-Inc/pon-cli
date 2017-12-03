@@ -28,7 +28,7 @@
     "argx": "^3.0.2",
     "commander": "^2.12.2",
     "pon-task-init": "^1.0.2",
-    "ponfile": "^4.0.4"
+    "ponfile": "^4.1.1"
   },
   "devDependencies": {
     "ababel": "^2.0.3",
