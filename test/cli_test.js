@@ -52,7 +52,8 @@ describe('cli', function () {
   it('List tasks with prefix-less', async () => {
     await cli({
       cwd: `${__dirname}/../misc/mock/mock-project-01`,
-      prefixless: true
+      prefixless: true,
+      list: true,
     })
   })
 

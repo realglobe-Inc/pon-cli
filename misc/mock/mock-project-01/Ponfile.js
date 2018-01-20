@@ -18,7 +18,9 @@ module.exports = ponRunner({
   invalid02: ['__invalid_pointer_02__'],
 
   $doc: {
-    tasks: {a}
+    tasks: {
+      a: 'This is a'
+    }
   }
 }).bind()
 
