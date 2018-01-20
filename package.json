@@ -26,18 +26,17 @@
   "homepage": "https://github.com/realglobe-Inc/pon-cli#readme",
   "dependencies": {
     "argx": "^3.0.2",
-    "commander": "^2.12.2",
+    "commander": "^2.13.0",
     "pon-task-init": "^1.0.2",
     "ponfile": "^4.1.2"
   },
   "devDependencies": {
-    "ababel": "^2.0.3",
-    "ababel-es2015": "^2.0.1",
+    "ababel": "^4.0.1",
     "amocha": "^4.0.0",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.4",
     "ape-tasking": "^4.0.9",
-    "ape-tmpl": "^6.0.2",
+    "ape-tmpl": "^6.0.8",
     "ape-updating": "^4.1.1",
     "coz": "^6.0.20",
     "filecopy": "^4.0.0",

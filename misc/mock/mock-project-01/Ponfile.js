@@ -15,6 +15,10 @@ module.exports = ponRunner({
   },
   c: ['a', 'b', () => {}],
   invalid01: ['__invalid_pointer_01__', () => {}],
-  invalid02: ['__invalid_pointer_02__']
+  invalid02: ['__invalid_pointer_02__'],
+
+  $doc: {
+    tasks: {a}
+  }
 }).bind()
 
