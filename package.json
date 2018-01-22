@@ -28,10 +28,10 @@
     "argx": "^3.0.2",
     "commander": "^2.13.0",
     "pon-task-init": "^1.0.2",
-    "ponfile": "^4.1.5"
+    "ponfile": "^4.1.7"
   },
   "devDependencies": {
-    "ababel": "^4.0.1",
+    "ababel": "^4.0.6",
     "amocha": "^4.0.0",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.4",
@@ -42,7 +42,7 @@
     "filecopy": "^4.0.0",
     "injectmock": "^2.0.0",
     "pon-assets": "^1.1.5",
-    "pon-runner": "^3.3.5",
+    "pon-runner": "^3.4.2",
     "sg-templates": "^1.4.4",
     "sugos-travis": "^2.0.7"
   },
