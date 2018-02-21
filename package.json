@@ -28,10 +28,10 @@
     "argx": "^3.0.2",
     "commander": "^2.14.1",
     "pon-task-init": "^1.0.2",
-    "ponfile": "^4.1.10"
+    "ponfile": "^4.2.1"
   },
   "devDependencies": {
-    "ababel": "^4.0.6",
+    "ababel": "^4.0.7",
     "amocha": "^5.0.0",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.4",
