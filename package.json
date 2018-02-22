@@ -42,7 +42,7 @@
     "filecopy": "^4.0.1",
     "injectmock": "^2.0.0",
     "pon-assets": "^1.1.5",
-    "pon-runner": "^3.4.8",
+    "pon-runner": "^3.4.9",
     "sg-templates": "^1.4.4",
     "sugos-travis": "^2.0.7"
   },
