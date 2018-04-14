@@ -42,12 +42,12 @@
     "filecopy": "^4.0.1",
     "injectmock": "^2.0.0",
     "pon-assets": "^1.1.5",
-    "pon-runner": "^3.4.10",
+    "pon-runner": "^3.4.11",
     "sg-templates": "^1.4.4",
     "sugos-travis": "^2.0.7"
   },
   "engines": {
-    "node": ">=7.6",
-    "npm": ">=4"
+    "node": ">=8",
+    "npm": ">=5"
   }
 }
