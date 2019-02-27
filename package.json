@@ -43,7 +43,7 @@
     "filecopy": "^4.0.2",
     "injectmock": "^2.0.0",
     "pon-assets": "^1.1.5",
-    "pon-runner": "^3.4.15",
+    "pon-runner": "^3.4.17",
     "sg-templates": "^1.4.4",
     "writeout": "^2.2.3"
   },
