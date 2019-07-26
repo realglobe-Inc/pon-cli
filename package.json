@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/realglobe-Inc/pon-cli#readme",
   "dependencies": {
-    "argx": "^4.0.0",
+    "argx": "^4.0.2",
     "commander": "^2.19.0",
     "pon-task-init": "^1.0.2",
     "ponfile": "^4.2.6"
